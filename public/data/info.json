@@ -1,0 +1,39 @@
+{
+    "horaires": [
+      {
+        "jour": "Lundi",
+        "heure": "Fermé"
+      },
+      {
+        "jour": "Mardi",
+        "heure": "9h - 12h / 14h - 18h"
+      },
+      {
+        "jour": "Mercredi",
+        "heure": "9h - 12h / 14h - 18h"
+      },
+      {
+        "jour": "Jeudi",
+        "heure": "9h - 12h / 14h - 18h"
+      },
+      {
+        "jour": "Vendredi",
+        "heure": "9h - 12h / 14h - 18h"
+      },
+      {
+        "jour": "Samedi",
+        "heure": "9h - 12h / 14h - 18h"
+      },
+      {
+        "jour": "Dimanche",
+        "heure": "Fermé"
+      }
+    ],
+
+    "contact" : {
+        "phone": "O6.86.83.92.38",
+        "email": "contact@missillac-marine-service.com",
+        "adress": "47 rue du Pont-Saillant, 44 780 Missillac"
+    }
+  }
+  
