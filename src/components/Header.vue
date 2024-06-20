@@ -6,7 +6,7 @@ defineProps<{
 
 <template>
   <header>
-    <nav class="navbar" :class="{ scrolled: isScrolled }">
+    <nav class="navbar">
       <router-link to="/">
         <div class="navbar-logo">
           <h1>Missillac Marine Service</h1>
@@ -17,29 +17,23 @@ defineProps<{
       </div>
       <div class="navbar-nav">
         <router-link to="/">ACCEUIL</router-link>
-        <router-link to="/purpose">SERVICES</router-link>
-        <router-link to="/purpose">VENTE</router-link>
-        <router-link id="tire" to="/purpose">PNEUS</router-link>
+        <router-link to="/service">SERVICES</router-link>
+        <!-- <router-link to="/purpose">VENTE</router-link> -->
+        <router-link id="tire" to="/service">PNEUS</router-link>
       </div>
     </nav>
   </header>
 </template>
 
 <style scoped>
-@font-face {
-  font-family: 'forum-regular';
-  src: url('../../public/fonts/Forum-Regular.ttf') format('truetype');
-}
-
 .navbar {
   top: 0;
   left: 0;
   right: 0;
   position: fixed;
   z-index: 10;
-  font-family: 'forum-regular';
   font-weight: bold;
-  color: #e7ecef;
+  color: #274c77;
 }
 
 .navbar-logo {
@@ -78,11 +72,11 @@ defineProps<{
   margin: 20px;
   color: #e7ecef;
   font-size: 20px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .navbar-quick a:hover {
-  border-bottom: 2px solid;
+  color: rgb(158, 38, 38);
 }
 
 .navbar-nav {
@@ -96,13 +90,13 @@ defineProps<{
 .navbar-nav a {
   text-decoration: none;
   padding: 20px;
-  color: #e7ecef;
+  color: #274c77;
   font-size: 20px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 .navbar-nav a:hover {
-  color: #274c77;
+  color: rgb(158, 38, 38);
 }
 
 #tire {

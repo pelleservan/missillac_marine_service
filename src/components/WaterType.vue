@@ -14,7 +14,7 @@ defineProps<{
           Des spécialistes de la mer. Votre bateau, préparé pour affronter les défis des eaux
           salées.
         </p>
-        <router-link class="learn-link" to="/purpose">
+        <router-link class="learn-link" to="/service">
           <h4>En savoir plus</h4>
         </router-link>
       </div>
@@ -27,7 +27,7 @@ defineProps<{
           Des experts en navigation douce. Votre bateau, toujours prêt à conquérir les rivières et
           les lacs.
         </p>
-        <router-link class="learn-link" to="/purpose">
+        <router-link class="learn-link" to="/service">
           <h4>En savoir plus</h4>
         </router-link>
       </div>

@@ -6,16 +6,16 @@ defineProps<{
 
 <template>
   <div class="activities-container">
-    <h2>MISSILLAC MARINE SERVICE : Votre Partenaire Maritime de Confiance</h2>
+    <h2>MISSILLAC MARINE SERVICE : Votre Partenaire Maritime de Confiance 👍🏻</h2>
     <div class="act-container">
       <div class="sub-pres">
         <div class="activity-title">
-          <router-link class="link" to="/purpose">
+          <router-link class="link" to="/service">
             <h3>Gamme Complète de Services</h3>
             <img class="img" src="/images/engine.jpg" />
           </router-link>
         </div>
-        <router-link class="middle-link" to="/purpose">
+        <router-link class="middle-link" to="/service">
           <h4>Gamme Complète de Services</h4>
         </router-link>
         <p>
@@ -25,16 +25,16 @@ defineProps<{
           transformation intérieure, en passant par l'électricité, l'électronique, la
           stratification, le traitement osmotique, la peinture, et bien plus encore.
         </p>
-        <router-link class="little-link" to="/purpose">En savoir plus →</router-link>
+        <router-link class="little-link" to="/service">En savoir plus →</router-link>
       </div>
       <div class="sub-pres">
         <div class="activity-title">
-          <router-link class="link" to="/purpose">
+          <router-link class="link" to="/service">
             <h3>Flexibilité avec Notre Chantier Mobile</h3>
             <img class="img" src="/images/driver.jpg" />
           </router-link>
         </div>
-        <router-link class="middle-link" to="/purpose">
+        <router-link class="middle-link" to="/service">
           <h4>Flexibilité avec Notre Chantier Mobile</h4>
         </router-link>
         <p>
@@ -43,16 +43,16 @@ defineProps<{
           l'importance de maintenir votre embarcation en parfait état, et c'est pourquoi nous
           mettons à votre disposition notre expertise et notre dévouement.
         </p>
-        <router-link class="little-link" to="/purpose">En savoir plus →</router-link>
+        <router-link class="little-link" to="/service">En savoir plus →</router-link>
       </div>
       <div class="sub-pres">
         <div class="activity-title">
-          <router-link class="link" to="/purpose">
+          <router-link class="link" to="/service">
             <h3>Opérations de Manutention et Transport</h3>
             <img class="img" src="/images/manu.jpg" />
           </router-link>
         </div>
-        <router-link class="middle-link" to="/purpose">
+        <router-link class="middle-link" to="/service">
           <h4>Opérations de Manutention et Transport</h4>
         </router-link>
         <p>
@@ -62,7 +62,7 @@ defineProps<{
           équipe expérimentée est prête à relever tous les défis pour assurer la sécurité et la
           performance de votre navire.
         </p>
-        <router-link class="little-link" to="/purpose">En savoir plus →</router-link>
+        <router-link class="little-link" to="/service">En savoir plus →</router-link>
       </div>
     </div>
   </div>
@@ -112,7 +112,7 @@ h2 {
 }
 
 .act-container h3:hover {
-  background-color: rgb(158, 38, 38, 0.8);
+  background-color: rgba(158, 38, 38, 0.8);
 }
 
 .img {

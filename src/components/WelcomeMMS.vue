@@ -1,13 +1,14 @@
 <script setup lang="ts">
 defineProps<{
   msg: string
+  class: string
 }>()
 </script>
 
 <template>
   <div class="presentation">
     <div class="paragraph">
-      <h3>Bienvenue chez MISSILLAC MARINE SERVICE</h3>
+      <h3>Bienvenue chez MISSILLAC MARINE SERVICE 👋</h3>
       <p>
         Faites confiance à MISSILLAC MARINE SERVICE pour prendre soin de votre embarcation comme si
         c'était la nôtre.
@@ -21,7 +22,7 @@ defineProps<{
         <router-link id="btn-contact" class="contact-link" to="/contact">
           <h4>CONTACTEZ-NOUS</h4>
         </router-link>
-        <router-link id="btn-services" class="services-link" to="/purpose">
+        <router-link id="btn-services" class="services-link" to="/service">
           <h4>NOS SERVICES</h4>
         </router-link>
       </div>

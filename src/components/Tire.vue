@@ -8,12 +8,12 @@ defineProps<{
   <div class="tire-container">
     <img id="tire" src="/images/tire.jpg" alt="Tire Image" />
     <div class="content">
-      <h2>Montage de pneumatiques</h2>
+      <h2>Montage de pneumatiques 🛞</h2>
       <p>
         Chez Missillac Marine Service, nous allons au-delà des vagues avec notre service de montage
         de pneus automobiles.
       </p>
-      <router-link class="tire-link" to="/purpose">
+      <router-link class="tire-link" to="/service">
         <h4>En savoir plus</h4>
       </router-link>
       <p>
